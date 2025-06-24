@@ -1,6 +1,4 @@
 //  import 'dart:io';
-// ignore_for_file: avoid_print
-
 import 'package:shelf/shelf.dart';
 import 'package:shelf/shelf_io.dart' as io;
 import 'package:shelf_router/shelf_router.dart';

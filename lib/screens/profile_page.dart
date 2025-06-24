@@ -1,11 +1,10 @@
-// ignore_for_file: use_build_context_synchronously, deprecated_member_use
-
 import 'package:flutter/material.dart';
 
 // --- GANTI DENGAN PATH YANG BENAR ---
-import '../models/profile_controller.dart';
+import '../controllers/profile_controller.dart';
 import '../models/user_model.dart';
 import '../utils/app_colors.dart'; // Sesuaikan jika perlu
+import '../utils/app_strings.dart'; // Sesuaikan jika perlu
 
 class ProfileSettingsScreen extends StatefulWidget {
   const ProfileSettingsScreen({super.key});

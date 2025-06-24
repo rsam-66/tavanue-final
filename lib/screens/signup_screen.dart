@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:tanavue/controllers/auth/sign_up_controller.dart';
 
 // --- GANTI DENGAN PATH YANG BENAR ---
+import '../controllers/auth/sign_up_controller.dart'; // <-- BENAR // DIUBAH untuk konsistensi
 import '../utils/app_colors.dart';
+import '../utils/app_strings.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
@@ -58,6 +60,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
       if (!mounted) return;
 
       if (user != null) {
+        // Komentar TODO sudah tidak relevan karena controller sudah melakukannya
         _showSuccessSnackBar("Pendaftaran berhasil!");
 
         Future.delayed(const Duration(milliseconds: 500), () {

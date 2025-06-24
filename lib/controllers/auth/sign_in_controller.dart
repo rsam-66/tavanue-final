@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-// Untuk menangani kasus web
+import 'package:flutter/foundation.dart'
+    show kIsWeb; // Untuk menangani kasus web
 
 class SignInController {
   final FirebaseAuth _auth = FirebaseAuth.instance;

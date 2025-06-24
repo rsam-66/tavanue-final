@@ -32,19 +32,17 @@ dependencies:
     sdk: flutter
   shelf: ^1.4.0
   shelf_router: ^1.1.4
-  http: ^0.13.6
+  http: ^1.4.0
+  firebase_auth: ^5.6.0
   firebase_core: ^3.14.0
   firebase_database: ^11.3.7
   firebase_storage: ^12.4.7
-  firebase_auth: ^5.6.0
-  cloud_firestore: ^5.6.9
+  cloud_firestore: ^5.6.9 
   get: ^4.7.2
   logger: ^2.0.2
   url_launcher: ^6.2.4
-  image_picker: ^0.8.5+3
+  image_picker: ^1.1.2
   google_sign_in : ^6.3.0
-
-
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -62,13 +60,12 @@ dev_dependencies:
   flutter_lints: ^4.0.0
   flutter_launcher_icons: ^0.13.1
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
 flutter_icons:
   android: true
   ios: true
   image_path: "assets/images/app_logo.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
@@ -78,7 +75,6 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/logo_google.png
     - assets/images/logo_tanavue.png

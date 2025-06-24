@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart'; // <-- Tambahkan import ini
 import 'firebase_options.dart';
-
 import 'firebase_options.dart';
 import 'backend/server.dart';
 import 'screens/home_screen.dart';
@@ -14,6 +13,14 @@ import 'screens/signup_screen.dart';
 import 'screens/check_email_screen.dart';
 import 'screens/forgot_password.dart';
 import 'utils/custom_page_route.dart';
+
+// Import semua screen yang akan digunakan dalam rute navigasi
+import 'screens/login_screen.dart';
+import 'screens/signup_screen.dart';
+import 'screens/home_screen.dart';
+import 'screens/monitoring_screen.dart';
+import 'screens/panen_screen.dart';
+import 'screens/profile_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

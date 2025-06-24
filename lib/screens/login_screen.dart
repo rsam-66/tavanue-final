@@ -2,8 +2,10 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 // Pastikan path ke controller Anda sudah benar
 import 'package:tanavue/controllers/auth_controller.dart';
+import 'package:tanavue/screens/home_screen.dart';
 import '../utils/app_colors.dart';
 import '../utils/app_strings.dart';
+import '../utils/custom_page_route.dart'; // Ini bisa dihapus jika tidak digunakan lagi
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
