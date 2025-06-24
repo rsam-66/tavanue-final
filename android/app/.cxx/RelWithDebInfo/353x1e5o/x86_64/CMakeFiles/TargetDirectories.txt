@@ -1,0 +1,2 @@
+C:/Tanavue2.1/Tanavue/tanavue/android/app/.cxx/RelWithDebInfo/353x1e5o/x86_64/CMakeFiles/edit_cache.dir
+C:/Tanavue2.1/Tanavue/tanavue/android/app/.cxx/RelWithDebInfo/353x1e5o/x86_64/CMakeFiles/rebuild_cache.dir

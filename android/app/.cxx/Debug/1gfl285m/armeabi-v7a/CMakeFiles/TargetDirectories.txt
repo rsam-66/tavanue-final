@@ -1,0 +1,2 @@
+C:/AbdimasFinal - Copy - Copy/Tanavue2.3.1/android/app/.cxx/Debug/1gfl285m/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/AbdimasFinal - Copy - Copy/Tanavue2.3.1/android/app/.cxx/Debug/1gfl285m/armeabi-v7a/CMakeFiles/rebuild_cache.dir
