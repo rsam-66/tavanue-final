@@ -1,0 +1,14 @@
+{
+  "name": "functions",
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "echo 'Lint skipped'"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^4.4.1"
+  }
+}

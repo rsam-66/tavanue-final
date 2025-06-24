@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "tanavue-database",
+          "appId": "1:944199132408:android:32bf0bab4aae5af8c8c70d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tanavue-database",
+          "configurations": {
+            "android": "1:944199132408:android:32bf0bab4aae5af8c8c70d",
+            "ios": "1:944199132408:ios:e5a50e98b8c6e3f7c8c70d",
+            "macos": "1:944199132408:ios:e5a50e98b8c6e3f7c8c70d",
+            "web": "1:944199132408:web:c46dd1ce361786a1c8c70d",
+            "windows": "1:944199132408:web:c46dd1ce361786a1c8c70d"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}
